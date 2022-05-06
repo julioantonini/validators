@@ -1,0 +1,126 @@
+/**
+ * RESET CSS
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    /* Text Adjusts */
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+    -webkit-appearance: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
+/**
+   * GENERAL STYLES
+   */
+
+.img-fluid {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.transition {
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+    background: #fff;
+    color: #5C626A;
+}
+
+
+
+.nav {
+    background-color: #ECECF1;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 8px;
+
+}
+
+.menu {
+    padding-top: 4px;
+    list-style: none;
+    float: right;
+}
+
+.menu li {
+    float: left;
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: #5C626A;
+    font-size: 16px;
+}
+
+.menu li a:hover {
+    color: #86BC25;
+}
+
+h1 {
+    color: #5C626A;
+    font-weight: 600;
+    padding: 15px 0 0 0;
+    margin-bottom: 0;
+
+}
+
+.subtitle {
+    color: #5C626A;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 0;
+}
+
+.btn-success {
+    background-color: #86BC25;
+    border-color: #86BC25;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.col-formula {
+    background-color: #eee;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #CED4DA;
+}
+
+.form-select-lg {
+    padding-top: 14px;
+    padding-bottom: 12px;
+}

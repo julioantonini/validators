@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máscaras</title>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col"><img src="assets/img/logo.svg" height="40" /></div>
+                <div class="col justify-content-right">
+                    <ul class="menu">
+                        <li><a href="/">Fórmulas</a></li>
+                        <li><a href="masks.html">Máscaras</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Máscaras</h1>
+        <p class="subtitle">Exemplo de máscaras</p>
+    </div>
+
+
+
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Validação de campo</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="value" value="" placeholder="" />
+                        <label for="floatingInput">VALOR</label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <select class="form-select form-select-lg mb-3" id="mask-category" aria-label=".form-select-lg">
+                        <option value="">Tipo de máscara</option>
+                    </select>
+                </div>
+
+                <div class="col">
+                    <select class="form-select form-select-lg mb-3" id="mask" aria-label=".form-select-lg">
+                        <option value="">Máscara</option>
+                    </select>
+                </div>
+
+
+            </div>
+
+
+            <br />
+
+
+
+
+            <div class="row">
+                <div class="col d-flex flex-row-reverse">
+                    <button type="button" onclick="validateMask()" class="btn btn-success">Validar</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </form>
+
+
+
+
+
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="assets/js/mascara.js"></script>
+</body>
+
+</html>
